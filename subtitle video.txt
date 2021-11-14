@@ -1,0 +1,9 @@
+WEBVTT
+
+1
+00:00:01,250 --> 00:00:08:250
+setiap pagi memberi makan kucing
+
+2
+00:00:08,250 --> 00:00:29:250
+kegiatan ini sangat menyenangkan sekali

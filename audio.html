@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>Contoh Audio di HTML</title>
+</head>
+<body>
+ <h1>Contoh Audio di Web</h1>
+ <!-- controls
+Atribut ini berfungsi untuk mengaktifkan tombol kontrol seperti
+tombol play, pause, stop, scroll, dan volume). Jika bernilai true,
+maka nilainya boleh tidak diisi. Nilai true artinya, mengaktifkan
+tombol kontrol dan jika nilainya false maka artinya tombol
+kontrol tidak diaktifkan. -->
+ <audio controls>
+ <source src="astronaut in the ocean.mp3" type="audio/mpeg">
+ Browsermu tidak mendukung tag audio, upgrade donk!
+ </audio>
+ <!-- Autoplay
+Atribut berfungsi untuk memutar audio secara otomatis. Nilai
+yang bisa diberikan pada atribut ini adalah true dan false.
+Nilai true artinya memutar audio secara otomatis,
+dan false artinya audio tidak akan diputar secara otomatis. -->
+ <audio autoplay="true">
+    <source src="astronaut in the ocean.mp3" type="audio/mpeg">
+        Browsermu tidak mendukung tag audio, uprade donk!
+</audio>
+<!-- atau -->
+<audio autoplay>
+    <source src="astronaut in the ocean.mp3" type="audio/mpeg">
+        Browsermu tidak mendukung tag audio, uprade donk!
+</audio>
+<!-- Loop
+Atribut loop berfungsi untuk mengulang-ulang pemutaran
+audio. Ini seperti repeat one. Nilai yang bisa diberikan
+adalah true dan false. -->
+<audio loop="true">
+    <source src="astronaut in the ocean.mp3" type="audio/mpeg">
+        Browsermu tidak mendukung tag audio, uprade donk!
+</audio>
+<!-- atau -->
+<audio loop>
+    <source src="astronaut in the ocean.mp3" type="audio/mpeg">
+        Browsermu tidak mendukung tag audio, uprade donk!
+</audio>
+<!-- Muted
+Atribut ini berfungsi untuk mensenyapkan audio. Nilai yang bisa
+diberikan adalah true dan false. -->
+<audio muted="true">
+    <source src="astronaut in the ocean.mp3" type="audio/mpeg">
+        Browsermu tidak mendukung tag audio, uprade donk!
+</audio>
+<!-- atau -->
+<audio muted>
+    <source src="astronaut in the ocean.mp3" type="audio/mpeg">
+        Browsermu tidak mendukung tag audio, uprade donk!
+</audio>
+</body>
+</html>
